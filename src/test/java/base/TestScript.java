@@ -10,7 +10,7 @@ import pages.Common;
 
 public class TestScript extends CustomAnnotations {
 	@Test(priority = 2, dependsOnMethods = { "assertAPI" }, dataProvider = "books", dataProviderClass = DataSet.class)
-	public void f(String products) throws IOException {
+	public void searchProductGivenByAPI(String products) throws IOException {
 		Common.openURL();
 		Common.searchBooks(products);
 	}

@@ -23,5 +23,14 @@ public class API_Initializer {
 
 		return prop.getProperty("endPoint");
 	}
+	public static String objectKey() throws IOException {
+		File file = new File(System.getProperty("user.dir") + "/src/main/resources/configurations/api.properties");
+		FileInputStream fis = new FileInputStream(file);
+		Properties prop = new Properties();
+		prop.load(fis);
+
+		return prop.getProperty("objectkey");
+	}
+
 
 }

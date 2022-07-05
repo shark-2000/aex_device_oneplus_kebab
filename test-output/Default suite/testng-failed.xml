@@ -10,7 +10,7 @@
       </class> <!-- abstracted.CustomAnnotations -->
       <class name="base.TestScript">
         <methods>
-          <include name="f"/>
+          <include name="searchProductGivenByAPI"/>
           <include name="assertAPI"/>
         </methods>
       </class> <!-- base.TestScript -->

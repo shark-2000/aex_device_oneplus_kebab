@@ -1,6 +1,5 @@
 package utils;
 
-
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -22,9 +21,11 @@ public class ParsedAPIData {
 		ArrayList<String> bookTitles = new ArrayList<String>();
 		for (int i = 0; i < books.size(); i++) {
 			JSONObject book = (JSONObject) books.get(i);
-			bookTitles.add((String) book.get("name"));
+			bookTitles.add((String) book.get(API_Initializer.objectKey()));
 		}
+
 		return bookTitles;
+
 	}
 
 }

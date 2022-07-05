@@ -1,13 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-02T14:32:05 IST" name="Default suite" finished-at="2022-07-02T14:32:08 IST" duration-ms="3490">
+  <suite started-at="2022-07-05T10:54:10 IST" name="Default suite" finished-at="2022-07-05T10:55:02 IST" duration-ms="51901">
     <groups>
     </groups>
-    <test started-at="2022-07-02T14:32:05 IST" name="Default test" finished-at="2022-07-02T14:32:08 IST" duration-ms="3490">
+    <test started-at="2022-07-05T10:54:10 IST" name="Default test" finished-at="2022-07-05T10:55:02 IST" duration-ms="51901">
+      <class name="base.TestScript">
+        <test-method signature="assertAPI()[pri:1, instance:base.TestScript@3ba9ad43]" started-at="2022-07-05T10:54:10 IST" name="assertAPI" finished-at="2022-07-05T10:54:14 IST" duration-ms="3776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAPI -->
+        <test-method signature="searchProductGivenByAPI(java.lang.String)[pri:2, instance:base.TestScript@3ba9ad43]" started-at="2022-07-05T10:54:16 IST" name="searchProductGivenByAPI" data-provider="books" finished-at="2022-07-05T10:54:26 IST" depends-on-methods="abstracted.CustomAnnotations.assertAPI" duration-ms="9807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Russian]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductGivenByAPI -->
+        <test-method signature="searchProductGivenByAPI(java.lang.String)[pri:2, instance:base.TestScript@3ba9ad43]" started-at="2022-07-05T10:54:26 IST" name="searchProductGivenByAPI" data-provider="books" finished-at="2022-07-05T10:54:32 IST" depends-on-methods="abstracted.CustomAnnotations.assertAPI" duration-ms="6243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Just as I Am]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductGivenByAPI -->
+        <test-method signature="searchProductGivenByAPI(java.lang.String)[pri:2, instance:base.TestScript@3ba9ad43]" started-at="2022-07-05T10:54:32 IST" name="searchProductGivenByAPI" data-provider="books" finished-at="2022-07-05T10:54:41 IST" depends-on-methods="abstracted.CustomAnnotations.assertAPI" duration-ms="8935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Vanishing Half]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductGivenByAPI -->
+        <test-method signature="searchProductGivenByAPI(java.lang.String)[pri:2, instance:base.TestScript@3ba9ad43]" started-at="2022-07-05T10:54:41 IST" name="searchProductGivenByAPI" data-provider="books" finished-at="2022-07-05T10:54:47 IST" depends-on-methods="abstracted.CustomAnnotations.assertAPI" duration-ms="6271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Midnight Library]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductGivenByAPI -->
+        <test-method signature="searchProductGivenByAPI(java.lang.String)[pri:2, instance:base.TestScript@3ba9ad43]" started-at="2022-07-05T10:54:47 IST" name="searchProductGivenByAPI" data-provider="books" finished-at="2022-07-05T10:54:54 IST" depends-on-methods="abstracted.CustomAnnotations.assertAPI" duration-ms="6999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Untamed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductGivenByAPI -->
+        <test-method signature="searchProductGivenByAPI(java.lang.String)[pri:2, instance:base.TestScript@3ba9ad43]" started-at="2022-07-05T10:54:54 IST" name="searchProductGivenByAPI" data-provider="books" finished-at="2022-07-05T10:55:00 IST" depends-on-methods="abstracted.CustomAnnotations.assertAPI" duration-ms="6209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Viscount Who Loved Me]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductGivenByAPI -->
+      </class> <!-- base.TestScript -->
       <class name="abstracted.CustomAnnotations">
-        <test-method signature="assertAPI()[pri:1, instance:abstracted.CustomAnnotations@3ba9ad43]" started-at="2022-07-02T14:32:05 IST" name="assertAPI" finished-at="2022-07-02T14:32:08 IST" duration-ms="3442" status="PASS">
+        <test-method signature="assertAPI()[pri:1, instance:abstracted.CustomAnnotations@cd3fee8]" started-at="2022-07-05T10:55:00 IST" name="assertAPI" finished-at="2022-07-05T10:55:02 IST" duration-ms="1674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertAPI -->
